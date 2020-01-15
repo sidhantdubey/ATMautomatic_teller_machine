@@ -1,3 +1,7 @@
+/**
+ * @author YASH KUMAR SINGH
+ * @version 1.01
+ */
 package ATM;
 
 /**
@@ -5,7 +9,7 @@ package ATM;
  */
 public interface ATM {
     /**
-     * amount to deposti
+     * amount to deposit
      *
      * @param amount
      * @return value after deposited amount

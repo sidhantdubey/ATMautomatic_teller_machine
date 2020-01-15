@@ -3,7 +3,7 @@ package yashbank;
 import ATM.ATM;
 
 /**
- * abstract claass
+ * abstract class
  */
 public class YashBank implements ATM {
 
