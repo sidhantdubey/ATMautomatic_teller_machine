@@ -1,11 +1,11 @@
 package ATM;
 
 public interface ATM {
-    double deposit();
+    double deposit(double amount);
 
-    double showBalabance();
+    double showBalabance(double amount);
 
     void showBalance();
 
-    boolean verifyPin();
+    boolean verifyPin(int atmPin);
 }
