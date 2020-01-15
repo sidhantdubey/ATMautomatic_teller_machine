@@ -26,7 +26,7 @@ public class YashBank implements ATM {
      */
     @Override
     public double withdrawl(double amount) {
-        return 0;
+        return amount;
     }
 
     /**
@@ -45,6 +45,7 @@ public class YashBank implements ATM {
      */
     @Override
     public boolean verifyPin(int atmPin) {
+
         return false;
     }
 }

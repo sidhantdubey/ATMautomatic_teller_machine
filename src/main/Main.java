@@ -13,6 +13,9 @@ public class Main {
      */
     public static void main(String[] args) {
         YashBank yashBank = new YashBank();
-
+        yashBank.verifyPin(123);
+        yashBank.deposit(1000);
+        yashBank.showBalance();
+        yashBank.withdrawl(200);
     }
 }
